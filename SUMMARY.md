@@ -39,3 +39,5 @@
 * [chapter7 彻底钻研客户端JavaScript开发](c7/README.md)
     * [7.1 浏览器对象中需要了解的基本功能](c7/7.1/README.md)
         * [7.1.1 浏览器对象的层级结构](c7/7.1/7.1.1.md)
+        * [7.1.2 显示确认对话框 -confirm方法-](c7/7.1/7.1.2.md)
+        * [7.1.3 实现定时器功能 -setInterval／setTimeout方法](c7/7.1/7.1.3.md)
