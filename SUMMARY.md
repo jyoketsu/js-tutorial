@@ -57,6 +57,7 @@
     * [7.4 联动服务器实现丰富的UI -Ajax-](c7/7.4/README.md) 
         * [7.4.1 将Ajax的Hello, World和PHP的Hello, World相比较](c7/7.4/7.4.1.md) 
         * [7.4.2 实现Ajax应用的基础](c7/7.4/7.4.2.md) 
+        * [7.4.3 在Ajax应用中操作结构化数据](c7/7.4/7.4.3.md) 
 
 
 
