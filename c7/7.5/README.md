@@ -1,19 +1,15 @@
 ##### 【411页】
 # 7.5 简单显示异步处理 -Promise对象-
-&emsp;&emsp;在JavaScript中执行异步处理，有经典方法之一的回调函数（4.6.3）。目前为止，我们在setTimeout／setInteval方法、XMLHttpRequest对象等各方面使用了回调函数。也可以说是JavaScript方言。<br>
+&emsp;&emsp;在JavaScript中执行异步处理，有经典方法之一的回调函数（4.6.3）。目前为止，我们在setTimeout／setInteval方法、XMLHttpRequest对象等各方面使用了回调函数。回调函数也可以说是JavaScript方言。<br>
 &emsp;&emsp;但是，如果有连续多个异步处理时，回调函数的嵌套就会很深，1个函数就会变得很臃肿。我们将这样的问题称为回调地狱。
 ![image](../../images/c7/スクリーンショット&#32;2019-04-17&#32;午後9.39.37.png)
+> ……最开始执行的处理……  
+> ……first函数成功之后执行的处理……  
+> ……second函数成功之后执行的处理……  
+> ……最后执行的处理……
 
-&emsp;&emsp;
-●／・■→×÷※
-①②③④⑤
-
-7.5.1 掌握Promise对象的基础
-7.5.2 连接异步处理
-7.5.3 使多个异步处理并行
-7.6 在后台运行JavaScript的代码 -Web Worker-
-7.6.1 实现worker线程
-7.6.2 启动worker线程
-
-原文|译文|备注
-:--|:--|:--
+&emsp;&emsp;Promise对象的功能就是解决这样的问题。使用Promise对象可以使这样的代码和同步处理一样来写。
+![image](../../images/c7/スクリーンショット&#32;2019-04-18&#32;午前9.23.08.png)
+&emsp;&emsp;虽然只是概念形式的代码，但是和嵌套很深的回调函数相比，一下子易读了很多。<br>
+&emsp;&emsp;目前为止，jQuery或者AngularJS这样的库／框架也提供了这样的功能。但是，在ES2015中作为Promise对象进行了标准化，不再需要依赖外部库了。<br>
+&emsp;&emsp;Promise对象正确来说是（不是浏览器对象）JavaScript标准内置对象。但是，因为经常和Ajax通信组合使用，所以为了方便说明而放在本章中一起介绍。
