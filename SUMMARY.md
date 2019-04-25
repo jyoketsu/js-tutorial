@@ -86,3 +86,4 @@
         * [8.5.2 JavaScript style guide (MDN)的主要规范](c8/8.5/8.5.2.md) 
         * [8.5.3 Google标准的编程风格](c8/8.5/8.5.3.md)    
 * [索引](index.md)  
+* [术语](term.md) 
